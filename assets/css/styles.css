@@ -1,0 +1,33 @@
+/*Add your custom styles here*/
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.table {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.table__title {
+    font-style: italic;
+    font-weight: 700;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.submit {
+    margin-top: 25px;
+}
+
+.author {
+    text-align: center;
+    margin-top: 35px;
+}
